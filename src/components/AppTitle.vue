@@ -12,4 +12,6 @@ export default {
   <h1 class="title">{{ title }}</h1>
 </template>
 
+<!-- Scoped fa si che le classi inserite qui sottovalgano solo e soltanto per questo componente-->
+
 <style scoped></style>
