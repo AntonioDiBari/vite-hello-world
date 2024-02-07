@@ -19,9 +19,18 @@ export default {
 </script>
 
 <template>
-  <div>
-    <img :src="getUrl(imgName)" alt="" />
+  <div class="wrapper">
+    <img :src="getUrl(imgName)" alt="" class="hero" />
   </div>
 </template>
 
-<style scoped></style>
+<!-- Scoped fa si che le classi inserite qui sottovalgano solo e soltanto per questo componente-->
+<style scoped>
+.wrapper {
+  width: 100%;
+}
+.hero {
+  width: 100%;
+  border: 3px solid black;
+}
+</style>

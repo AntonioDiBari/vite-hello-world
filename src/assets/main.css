@@ -3,3 +3,6 @@
   text-align: center;
   text-decoration: underline;
 }
+* {
+  box-sizing: border-box;
+}
